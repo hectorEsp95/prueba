@@ -1,0 +1,21 @@
+/*ESTILOS DE LA IMAGEN DE FONDO DEL SANTO*/
+.imagen-santo{
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+/*ESTILOS PARA LA INFORMACION DE LOS REQUISITOS*/
+.text-informacion{
+    color: white;
+    font-size: 14px;
+    text-align: left;
+}
+
+.bold-text{
+    font-weight: 600 !important;
+}
+
+
+
+

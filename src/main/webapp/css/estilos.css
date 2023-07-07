@@ -1,0 +1,15 @@
+/*ESTILOS PARA EL FONDO DE COLOR CON LA IMAGEN*/
+.fondo{
+    background: url(fondo.png), #7b4397;
+    background: url(fondo.png), linear-gradient(to left, #7b4397, #dc2430)
+}
+
+/*PONER NEGRITAS A TEXTOS*/
+.bold-text{
+    font-weight: 600 !important;
+}
+
+
+
+
+

@@ -1,0 +1,12 @@
+/*ESTILOS PARA LAS FOTOS GRUPALES*/
+#myImg1, #myImg2, #myImg3  {
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    border: 8px solid black;
+
+}
+
+#myImg1:hover, #myImg2:hover, #myImg3:hover {
+    opacity: 0.7;
+}

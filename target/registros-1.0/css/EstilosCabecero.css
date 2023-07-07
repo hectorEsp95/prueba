@@ -1,0 +1,72 @@
+/*ESTILOS PARA EL MENU DE LINKS NAVIGATION*/
+.menu {
+    background: rgb(0,0,0);
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    color: white;
+}
+
+.puente ul {
+    list-style: none;
+    overflow: hidden;
+}
+
+.puente ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+}
+.puente ul li a {
+    display: block;
+    width: 120px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+}
+.puente ul li:hover {
+    background: #eca023;
+}
+.puente ul li:hover > ul {
+    display:inherit;
+}
+
+
+.puente ul ul {
+    position: fixed;
+    display: none;
+}
+
+.puente ul ul li {
+    width: auto;
+    display:list-item;
+    float: none;
+    background-color: black;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+.puente ul ul li:hover > ul {
+    position: relative;
+}
+
+.puente ul ul ul {
+    position: fixed;
+    display: none;
+}
+.puente ul ul ul li {
+    width: auto;
+    display:list-item;
+    position: relative;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
